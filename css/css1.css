@@ -1,0 +1,62 @@
+.clearfix::after {
+    display: block;
+    height: 0;
+    clear: both;
+    content: '';
+    visibility: hidden;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.timer {
+    margin-top: 150px;
+    padding: 0 50px;
+}
+
+.timer__clockFace {
+    margin: 10px;
+    font-size: 90px;
+}
+
+.timer__hour {
+    float: left;
+}
+
+.timer__min {
+    float: left;
+}
+
+.timer__sec {
+    float: left;
+}
+
+.timer__ms {
+    float: left;
+    font-size: 40px;
+}
+
+.timer__control {
+    font-size: 25px;
+}
+
+.timer__start-button {
+    display: block;
+    padding: 20px;
+    background: green;
+    float: left;
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+.timer__clear-button {
+    display: block;
+    padding: 20px;
+    background: red;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
